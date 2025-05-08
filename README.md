@@ -5,7 +5,7 @@ In TypeScript, both interface and type help describe the shape of data. They are
 
 ### 1. **Basic Use**
 
-✅ *Both `interface` and `type` can define the shape of an object.*
+*Both `interface` and `type` can define the shape of an object.*
 
 ```tsx
 // Using interface
@@ -26,7 +26,7 @@ type PersonType = {
 
 ### 2. **Extending**
 
-✅ *Interfaces use `extends`, types use `&` for combining.*
+*Interfaces use `extends`, types use `&` for combining.*
 
 ```tsx
 // Interface extending another interface
@@ -51,7 +51,7 @@ type DogType = AnimalType & {
 
 ### 3. **Merging**
 
-✅ *Interfaces with the same name are merged; types throw an error.*
+*Interfaces with the same name are merged; types throw an error.*
 
 ```tsx
 // Merging interfaces (allowed)
@@ -82,7 +82,7 @@ type Bike = {
 
 ### 4. **More Features with Type**
 
-✅ *Types can create union types, tuples, etc. but Interface doesn’t allow.*
+*Types can create union types, tuples, etc. but Interface doesn’t allow.*
 
 ```tsx
 // Union Type
@@ -94,7 +94,7 @@ type Point = [number, number];
 
 ---
 
-
+---
 
 # What is the Use of the `keyof` Keyword in TypeScript?
 
@@ -104,7 +104,7 @@ It helps you create safer and more flexible code by **working with property name
 
 ---
 
-### ✅ Why use `keyof`?
+### Why use `keyof`?
 
 - To get the keys (names) of an object type
 - To make sure you only use valid property names
@@ -112,9 +112,9 @@ It helps you create safer and more flexible code by **working with property name
 
 ---
 
-### 🔍 Example
+### Example
 
-```
+```tsx
 interface Person {
   name: string;
   age: number;
