@@ -1,6 +1,5 @@
-# READ
 
-## Differences Between Interface and Type in TypeScript
+# Differences Between Interface and Type in TypeScript
 
 In TypeScript, both interface and type help describe the shape of data. They are similar but have some small differences.
 
@@ -95,7 +94,9 @@ type Point = [number, number];
 
 ---
 
-## What is the Use of the `keyof` Keyword in TypeScript?
+
+
+# What is the Use of the `keyof` Keyword in TypeScript?
 
 The `keyof` keyword is used to get the **names of properties** from a type or interface.
 
